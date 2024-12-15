@@ -1,6 +1,7 @@
 package de.techspace.quarkus.code.stage;
 
 import io.quarkus.test.junit.QuarkusTest;
+import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvSource;
 
@@ -15,6 +16,12 @@ class ExtensionResourceTest {
     void testExtensionsIdEndpoint(String id, String name) {
         given().pathParam("id", id).when().get("/extensions/{id}").then().statusCode(200)
                 .body("id", is(id), "name", is(name));
+    }
+
+    @Test
+    void testResponseTransformer() {
+        given().pathParam("id", "invalid").when().get("/extensions/{id}").then().statusCode(200)
+                .body("id", is("replaced"));
     }
 
 }

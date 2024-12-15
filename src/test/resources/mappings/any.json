@@ -4,7 +4,11 @@
   },
   "response": {
     "status": 200,
-    "body": "[{\"id\":\"{{request.query.id}}\",\"name\":\"any\",\"shortName\":\"any\",\"keywords\":[\"any\"]}]",
+    "body": "[{\"id\":\"{{ parameters.id }}\",\"name\":\"any\",\"shortName\":\"any\",\"keywords\":[\"any\"]}]",
+    "transformers": ["id-transformer", "response-template"],
+    "transformerParameters": {
+      "id": "default"
+    },
     "headers": {
       "Content-Type": "application/json"
     }
