@@ -1,0 +1,18 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPathTemplate": "/extensions",
+    "queryParameters": {
+      "id": {
+        "equalTo": "io.quarkus:quarkus-rest-client"
+      }
+    }
+  },
+  "response": {
+    "status": 200,
+    "bodyFileName": "quarkus-rest-client-200.json",
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  }
+}

@@ -1,0 +1,56 @@
+[
+  {
+    "id": "io.quarkus:quarkus-rest",
+    "shortId": "ignored",
+    "version": "3.17.4",
+    "name": "REST",
+    "description": "A Jakarta REST implementation utilizing build time processing and Vert.x. This extension is not compatible with the quarkus-resteasy extension, or any of the extensions that depend on it.",
+    "shortName": "resteasy-reactive",
+    "category": "Web",
+    "transitiveExtensions": [
+      "io.quarkus:quarkus-rest-common",
+      "io.quarkus:quarkus-mutiny",
+      "io.quarkus:quarkus-smallrye-context-propagation",
+      "io.quarkus:quarkus-vertx",
+      "io.quarkus:quarkus-netty",
+      "io.quarkus:quarkus-vertx-http",
+      "io.quarkus:quarkus-core",
+      "io.quarkus:quarkus-tls-registry",
+      "io.quarkus:quarkus-jsonp",
+      "io.quarkus:quarkus-virtual-threads",
+      "io.quarkus:quarkus-arc"
+    ],
+    "tags": [
+      "with:starter-code",
+      "status:stable"
+    ],
+    "keywords": [
+      "rest",
+      "jaxrs",
+      "extension",
+      "depend",
+      "utilizing",
+      "vert",
+      "implementation",
+      "jakarta-rest",
+      "quarkus-rest",
+      "any",
+      "compatible",
+      "extensions",
+      "reactive",
+      "web",
+      "build",
+      "resteasy-reactive",
+      "processing",
+      "time",
+      "resteasy",
+      "jakarta"
+    ],
+    "providesExampleCode": true,
+    "providesCode": true,
+    "guide": "https://quarkus.io/guides/rest",
+    "order": 0,
+    "platform": true,
+    "bom": "io.quarkus.platform:quarkus-bom:3.17.4"
+  }
+]

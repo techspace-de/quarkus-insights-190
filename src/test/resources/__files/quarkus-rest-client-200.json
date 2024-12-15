@@ -1,0 +1,50 @@
+[
+  {
+    "id": "io.quarkus:quarkus-rest-client",
+    "shortId": "ignored",
+    "version": "3.17.4",
+    "name": "REST Client",
+    "description": "Call REST services",
+    "shortName": "rest-client-reactive",
+    "category": "Web",
+    "transitiveExtensions": [
+      "io.quarkus:quarkus-rest-client-jaxrs",
+      "io.quarkus:quarkus-vertx",
+      "io.quarkus:quarkus-netty",
+      "io.quarkus:quarkus-mutiny",
+      "io.quarkus:quarkus-smallrye-context-propagation",
+      "io.quarkus:quarkus-virtual-threads",
+      "io.quarkus:quarkus-rest-common",
+      "io.quarkus:quarkus-jsonp",
+      "io.quarkus:quarkus-smallrye-stork",
+      "io.quarkus:quarkus-core",
+      "io.quarkus:quarkus-arc",
+      "io.quarkus:quarkus-rest-client-config",
+      "io.quarkus:quarkus-tls-registry"
+    ],
+    "tags": [
+      "with:starter-code",
+      "status:stable"
+    ],
+    "keywords": [
+      "call",
+      "rest",
+      "reactive",
+      "quarkus-rest-client",
+      "web",
+      "web-client",
+      "rest-client",
+      "resteasy-reactive",
+      "client",
+      "microprofile-rest-client",
+      "services",
+      "rest-client-reactive"
+    ],
+    "providesExampleCode": true,
+    "providesCode": true,
+    "guide": "https://quarkus.io/guides/rest-client",
+    "order": 7,
+    "platform": true,
+    "bom": "io.quarkus.platform:quarkus-bom:3.17.4"
+  }
+]
