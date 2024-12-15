@@ -1,0 +1,12 @@
+{
+  "request": {
+    "method": "ANY"
+  },
+  "response": {
+    "status": 200,
+    "body": "[{\"id\":\"{{request.query.id}}\",\"name\":\"any\",\"shortName\":\"any\",\"keywords\":[\"any\"]}]",
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  }
+}
